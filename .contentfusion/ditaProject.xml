@@ -42,7 +42,9 @@
     <deliverable id="d-User_Manual_to_Multilingual_PDF" name="User Manual to Multilingual PDF">
         <context idref="user_manual_multilingual"/>
         <output href="pdf-output"/>
-        <publication idref="pdf"/>
+        <publication idref="pdf">
+            <param href="cf://templates/Oxygen" name="pdf.publishing.template"/>
+        </publication>
     </deliverable>
     <deliverable id="d-User_Manual_to_FR_WebHelp" name="User Manual to WebHelp Responsive - FR">
         <context idref="user_manual_fr"/>
