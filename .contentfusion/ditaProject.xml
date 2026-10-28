@@ -35,7 +35,9 @@
     <deliverable id="d-User_Manual_to_Multilingual_WebHelp" name="User Manual to Multilingual WebHelp Responsive">
         <context idref="user_manual_multilingual"/>
         <output href="webhelp-output"/>
-        <publication idref="webhelp"/>
+        <publication idref="webhelp">
+            <param href="cf://templates/Oxygen" name="webhelp.publishing.template"/>
+        </publication>
     </deliverable>
     <deliverable id="d-User_Manual_to_Multilingual_PDF" name="User Manual to Multilingual PDF">
         <context idref="user_manual_multilingual"/>
