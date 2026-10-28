@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="configuration">
+    <title>Configuration</title>
+    <shortdesc>Configure <ph keyref="product"/> after installation to match your environment and
+        preferences.</shortdesc>
+    <taskbody>
+        <context>
+            <p>After installing <ph keyref="product"/>, you may need to adjust settings such as
+                connection parameters, user preferences, and default options.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Launch <ph keyref="product"/>.</cmd>
+            </step>
+            <step>
+                <cmd>Open the settings by navigating to <menucascade>
+                        <uicontrol>Edit</uicontrol>
+                        <uicontrol>Preferences</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Configure the <uicontrol>General</uicontrol> settings according to your
+                    needs.</cmd>
+                <info>
+                    <p>Common settings to review:</p>
+                    <ul id="ul_general_settings">
+                        <li><uicontrol>Language</uicontrol> — Set the interface language.</li>
+                        <li><uicontrol>Theme</uicontrol> — Choose between light and dark
+                            themes.</li>
+                        <li><uicontrol>Auto-save</uicontrol> — Enable or disable automatic
+                            saving.</li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Apply</uicontrol> to save your changes.</cmd>
+            </step>
+        </steps>
+        <postreq>
+            <note conref="../reusables/reusable_components.dita#reusable_notes/note_tip_shortcut"/>
+        </postreq>
+    </taskbody>
+</task>

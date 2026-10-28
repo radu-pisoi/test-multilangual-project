@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Content Fusion translation index: tracks source->target translation state for incremental runs. -->
+<!-- Commit this file so future runs can detect current, stale, and missing translations. -->
+<translation-index version="1">
+  <entry lang="de-DE"><source href="../../en/reusables/reusable_components.dita" sha="a737b296057349ca6b2bca1e22d69b4e282dd3b1"/><target href="../../de-DE/reusables/reusable_components.dita" sha="859bbc63877dbf1ec1fa0d160ba4e016dac681db"/></entry>
+  <entry lang="de-DE"><source href="../../en/reusables/reusable_content.ditamap" sha="307b970fd067cce67a89b1701dcbd3e6d6b67e61"/><target href="../../de-DE/reusables/reusable_content.ditamap" sha="34ee6e50c1123577e60f617624f884e31e854c7c"/></entry>
+  <entry lang="de-DE"><source href="../../en/reusables/reusable_keys.ditamap" sha="2d3ecc256085fdd9e0d5d282ac57b27abbd6e806"/><target href="../../de-DE/reusables/reusable_keys.ditamap" sha="4ac37b55867ac263b1ca1274acc0928262d4f2eb"/></entry>
+  <entry lang="de-DE"><source href="../../en/topics/common-tasks.dita" sha="078f6b7877f2442c4ee624375ab39757f69f8323"/><target href="../../de-DE/topics/common-tasks.dita" sha="74e08fdb98716b64bd5cf4e243baac7a79ab3bf5"/></entry>
+  <entry lang="de-DE"><source href="../../en/topics/configuration.dita" sha="aa79c68b1b99d8ac16d33697d1ce70497a3830b2"/><target href="../../de-DE/topics/configuration.dita" sha="08d4fc4ed1dce48d96d88bb73aa038cc1a94967e"/></entry>
+  <entry lang="de-DE"><source href="../../en/topics/faq.dita" sha="afe215029df6b74912b530b31ad3913599618941"/><target href="../../de-DE/topics/faq.dita" sha="690d7027c22b08b580a218655007175dfe9ff321"/></entry>
+  <entry lang="de-DE"><source href="../../en/topics/installation.dita" sha="b225cee9d0ca041bfd5765cb10165571e2250150"/><target href="../../de-DE/topics/installation.dita" sha="08971eb314de5eecb3b299d064f96f1d4d88d6d4"/></entry>
+  <entry lang="de-DE"><source href="../../en/topics/troubleshooting.dita" sha="8aefc82851c0fe57d45cca3ff6ef49ac5001a92b"/><target href="../../de-DE/topics/troubleshooting.dita" sha="7edffed5f43535ca989541eb5ff640b7537184fb"/></entry>
+  <entry lang="de-DE"><source href="../../en/topics/welcome.dita" sha="017b85f249942d0a0e52ed21787536c88c1ef11b"/><target href="../../de-DE/topics/welcome.dita" sha="a9f4d972c0396fd2af6075b79eab2f5a135e05f9"/></entry>
+  <entry lang="de-DE"><source href="../../en/userguide.ditamap" sha="535334f5c109afca24beb6457ec7574b1c767d0a"/><target href="../../de-DE/userguide.ditamap" sha="b22f3373c6f9b951a824cbe21a306bdd6d999287"/></entry>
+  <entry lang="fr-FR"><source href="../../en/reusables/reusable_components.dita" sha="a737b296057349ca6b2bca1e22d69b4e282dd3b1"/><target href="../../fr-FR/reusables/reusable_components.dita" sha="0c3c46c9d57dd476453498c58ee769b484307cd1"/></entry>
+  <entry lang="fr-FR"><source href="../../en/reusables/reusable_content.ditamap" sha="307b970fd067cce67a89b1701dcbd3e6d6b67e61"/><target href="../../fr-FR/reusables/reusable_content.ditamap" sha="0f048cce64d47dafe173df4759ab8820585548df"/></entry>
+  <entry lang="fr-FR"><source href="../../en/reusables/reusable_keys.ditamap" sha="2d3ecc256085fdd9e0d5d282ac57b27abbd6e806"/><target href="../../fr-FR/reusables/reusable_keys.ditamap" sha="1c46c830856a4db6960556e37654ad73c15f5986"/></entry>
+  <entry lang="fr-FR"><source href="../../en/topics/common-tasks.dita" sha="078f6b7877f2442c4ee624375ab39757f69f8323"/><target href="../../fr-FR/topics/common-tasks.dita" sha="03cf612ddf046986bdc4a6c4eaa049dc32b18f27"/></entry>
+  <entry lang="fr-FR"><source href="../../en/topics/configuration.dita" sha="aa79c68b1b99d8ac16d33697d1ce70497a3830b2"/><target href="../../fr-FR/topics/configuration.dita" sha="7677b0be0a36e9ac663f5ee6f1755424da7e0b9d"/></entry>
+  <entry lang="fr-FR"><source href="../../en/topics/faq.dita" sha="afe215029df6b74912b530b31ad3913599618941"/><target href="../../fr-FR/topics/faq.dita" sha="f7237099d54bb952a3761fa005b57475c01c86ee"/></entry>
+  <entry lang="fr-FR"><source href="../../en/topics/installation.dita" sha="b225cee9d0ca041bfd5765cb10165571e2250150"/><target href="../../fr-FR/topics/installation.dita" sha="500c34a518243af8ef106ae1fd17dc4bc4543ef6"/></entry>
+  <entry lang="fr-FR"><source href="../../en/topics/troubleshooting.dita" sha="8aefc82851c0fe57d45cca3ff6ef49ac5001a92b"/><target href="../../fr-FR/topics/troubleshooting.dita" sha="0abed3c679862e8f38a2e8af05085903acda956a"/></entry>
+  <entry lang="fr-FR"><source href="../../en/topics/welcome.dita" sha="017b85f249942d0a0e52ed21787536c88c1ef11b"/><target href="../../fr-FR/topics/welcome.dita" sha="96a25f176d072d5825391ee4f76181bfc1f4d0ab"/></entry>
+  <entry lang="fr-FR"><source href="../../en/userguide.ditamap" sha="535334f5c109afca24beb6457ec7574b1c767d0a"/><target href="../../fr-FR/userguide.ditamap" sha="08dbac0790683ea04f87368f688c43581d85d1a8"/></entry>
+</translation-index>

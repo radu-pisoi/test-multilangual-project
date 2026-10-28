@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="common_tasks" xml:lang="de-DE">
+    <title>Häufige Aufgaben</title>
+    <shortdesc>Erfahren Sie, wie Sie die häufigsten Aufgaben in <ph keyref="product"/> ausführen.</shortdesc>
+    <taskbody>
+        <context>
+            <p>Dieser Abschnitt führt Sie durch alltägliche Aufgaben, die Sie mit
+                <ph keyref="product"/> ausführen werden.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Erstellen Sie ein neues Projekt, indem Sie <menucascade>
+                        <uicontrol>File</uicontrol>
+                        <uicontrol>New Project</uicontrol>
+                    </menucascade> auswählen.</cmd>
+            </step>
+            <step>
+                <cmd>Geben Sie einen Namen für Ihr Projekt ein und wählen Sie einen Speicherort aus.</cmd>
+            </step>
+            <step>
+                <cmd>Fügen Sie Ihrem Projekt Inhalte hinzu, indem Sie die verfügbaren Werkzeuge in der
+                    Symbolleiste verwenden.</cmd>
+            </step>
+            <step>
+                <cmd>Speichern Sie Ihre Arbeit durch Drücken von <uicontrol>Ctrl+S</uicontrol> (Windows/Linux) oder
+                        <uicontrol>Cmd+S</uicontrol> (macOS).</cmd>
+            </step>
+        </steps>
+        <result>
+            <p>Sie haben Ihr erstes Projekt in <ph keyref="product"/> erstellt und gespeichert.</p>
+            <note conref="../reusables/reusable_components.dita#reusable_notes/note_important_save"/>
+        </result>
+    </taskbody>
+</task>

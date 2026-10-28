@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="installation">
+    <title>Installation</title>
+    <shortdesc>How to install <ph keyref="product"/> on your system.</shortdesc>
+    <taskbody>
+        <prereq id="prereq_install">
+            <p>Before installing <ph keyref="product"/>, make sure you have:</p>
+            <ul id="ul_prereqs">
+                <li>Operating system: Windows 10+, macOS 12+, or a supported Linux
+                    distribution.</li>
+                <li>Disk space: At least 500 MB of free disk space.</li>
+                <li>Memory: At least 4 GB of RAM.</li>
+            </ul>
+        </prereq>
+        <steps>
+            <step>
+                <cmd>Download the installer from the official website.</cmd>
+            </step>
+            <step>
+                <cmd>Run the installer and follow the on-screen instructions.</cmd>
+            </step>
+            <step>
+                <cmd>Accept the license agreement and choose the installation directory.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Install</uicontrol> to begin the installation.</cmd>
+            </step>
+            <step>
+                <cmd>When the installation completes, click <uicontrol>Finish</uicontrol>.</cmd>
+            </step>
+        </steps>
+        <result>
+            <p><ph keyref="product"/> is now installed on your system. You can launch it from the
+                Start menu (Windows), Applications folder (macOS), or your desktop shortcut.</p>
+            <note conref="../reusables/reusable_components.dita#reusable_notes/reusable_note"/>
+        </result>
+    </taskbody>
+</task>

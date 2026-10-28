@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="faq" xml:lang="de-DE">
+    <title>Häufig gestellte Fragen</title>
+    <shortdesc>Antworten auf die am häufigsten gestellten Fragen zu
+        <ph keyref="product"/>.</shortdesc>
+    <body>
+        <section id="section_faq_general">
+            <title>Allgemein</title>
+            <dl id="dl_general_faq">
+                <dlentry>
+                    <dt>Welche Betriebssysteme werden unterstützt?</dt>
+                    <dd><ph keyref="product"/> unterstützt Windows 10 und höher, macOS 12 und höher
+                        sowie die gängigen Linux-Distributionen (Ubuntu, Fedora, Debian).</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Ist eine kostenlose Testversion verfügbar?</dt>
+                    <dd>Ja. Sie können eine vollständig funktionsfähige Testversion von unserer Website herunterladen. Der Testzeitraum beträgt 30 Tage.</dd>
+                </dlentry>
+            </dl>
+        </section>
+        <section id="section_faq_licensing">
+            <title>Lizenzierung</title>
+            <dl id="dl_licensing_faq">
+                <dlentry>
+                    <dt>Wie aktiviere ich meine Lizenz?</dt>
+                    <dd>Nach dem Kauf erhalten Sie einen Lizenzschlüssel per E-Mail. Geben Sie diesen unter
+                            <menucascade>
+                            <uicontrol>Hilfe</uicontrol>
+                            <uicontrol>Registrieren</uicontrol>
+                        </menucascade> ein, um Ihre Kopie zu aktivieren.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Kann ich meine Lizenz auf einen anderen Computer übertragen?</dt>
+                    <dd>Ja. Deaktivieren Sie die Lizenz zunächst auf dem aktuellen Gerät und aktivieren Sie sie anschließend auf dem neuen Gerät.</dd>
+                </dlentry>
+            </dl>
+        </section>
+    </body>
+</topic>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="welcome">
+    <title>Introduction</title>
+    <body>
+        <p>Bienvenue dans la documentation de <ph keyref="product"/> <ph keyref="product_version"/>.</p>
+        <p>Ce guide vous aide à installer, configurer et utiliser <ph keyref="product"/>. Il couvre
+            tout, de la configuration initiale au dépannage avancé.</p>
+        <section id="section_overview">
+            <title>Présentation</title>
+            <p><ph keyref="product"/> est conçu pour vous aider à atteindre vos objectifs efficacement.
+                Les fonctionnalités clés incluent :</p>
+            <ul id="ul_features">
+                <li>Fonctionnalité 1 — Brève description de la première fonctionnalité clé.</li>
+                <li>Fonctionnalité 2 — Brève description de la deuxième fonctionnalité clé.</li>
+                <li>Fonctionnalité 3 — Brève description de la troisième fonctionnalité clé.</li>
+            </ul>
+        </section>
+        <section id="section_audience">
+            <title>Public cible</title>
+            <p>Cette documentation est destinée aux utilisateurs finaux, aux administrateurs système et aux développeurs
+                qui ont besoin d'installer, de configurer ou d'utiliser <ph keyref="product"/>.</p>
+        </section>
+    </body>
+</topic>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="troubleshooting" xml:lang="fr-FR">
+    <title>Résolution des problèmes</title>
+    <shortdesc>Solutions aux problèmes courants que vous pouvez rencontrer lors de l'utilisation de
+        <ph keyref="product"/>.</shortdesc>
+    <body>
+        <section id="section_startup_issues">
+            <title>L'application ne démarre pas</title>
+            <p><b>Symptôme :</b> L'application ne parvient pas à se lancer ou se ferme immédiatement après
+                l'ouverture.</p>
+            <p><b>Solution :</b></p>
+            <ol id="ol_startup_fix">
+                <li>Vérifiez que votre système répond à la configuration minimale requise indiquée dans la
+                    rubrique Installation.</li>
+                <li>Assurez-vous qu'aucune autre instance de <ph keyref="product"/> n'est déjà en cours d'exécution.</li>
+                <li>Essayez de réinstaller l'application.</li>
+            </ol>
+        </section>
+        <section id="section_performance">
+            <title>Performances lentes</title>
+            <p><b>Symptôme :</b> L'application répond lentement ou se fige par intermittence.</p>
+            <p><b>Solution :</b></p>
+            <ol id="ol_performance_fix">
+                <li>Fermez les applications inutiles afin de libérer des ressources système.</li>
+                <li>Augmentez la mémoire allouée dans <menucascade>
+                        <uicontrol>Edit</uicontrol>
+                        <uicontrol>Preferences</uicontrol>
+                        <uicontrol>Performance</uicontrol>
+                    </menucascade>.</li>
+                <li>Vérifiez si des mises à jour sont disponibles, celles-ci pouvant inclure des améliorations des performances.</li>
+            </ol>
+        </section>
+        <section id="section_contact_support">
+            <title>Contacter le support</title>
+            <p>Si les solutions ci-dessus ne résolvent pas votre problème, contactez notre équipe de support à l'adresse
+                    <xref href="mailto:support@example.com" format="html" scope="external"
+                    >support@example.com</xref> en fournissant les informations suivantes :</p>
+            <ul id="ul_support_info">
+                <li>Votre numéro de version de <ph keyref="product"/>.</li>
+                <li>Le système d'exploitation et sa version.</li>
+                <li>Une description détaillée du problème et les étapes permettant de le reproduire.</li>
+            </ul>
+        </section>
+    </body>
+</topic>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="reusable_notes">
+    <title>Composants réutilisables</title>
+    <body>
+        <p>
+            <note id="reusable_note">Note réutilisable.</note>
+        </p>
+        <p>
+            <note id="note_important_save" type="important">N'oubliez pas de sauvegarder votre travail avant
+                de fermer l'application afin d'éviter de perdre les modifications non enregistrées.</note>
+        </p>
+        <p>
+            <note id="note_tip_shortcut" type="tip">Utilisez les raccourcis clavier pour accélérer votre
+                flux de travail. Consultez la référence des raccourcis <ph keyref="product"/> pour obtenir une liste
+                complète.</note>
+        </p>
+    </body>
+</topic>

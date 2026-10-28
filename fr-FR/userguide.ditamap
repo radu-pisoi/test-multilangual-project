@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Manuel utilisateur</title>
+    <topicref href="topics/welcome.dita"/>
+    <topicref href="topics/installation.dita"/>
+    <topicref href="topics/configuration.dita"/>
+    <topicref href="topics/common-tasks.dita"/>
+    <topicref href="topics/troubleshooting.dita"/>
+    <topicref href="topics/faq.dita"/>
+    <topicref href="reusables/reusable_content.ditamap" format="ditamap"
+        processing-role="resource-only"/>
+</map>

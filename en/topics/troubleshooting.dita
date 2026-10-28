@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="troubleshooting">
+    <title>Troubleshooting</title>
+    <shortdesc>Solutions for common issues you may encounter while using
+        <ph keyref="product"/>.</shortdesc>
+    <body>
+        <section id="section_startup_issues">
+            <title>Application Does Not Start</title>
+            <p><b>Symptom:</b> The application fails to launch or closes immediately after
+                opening.</p>
+            <p><b>Solution:</b></p>
+            <ol id="ol_startup_fix">
+                <li>Verify that your system meets the minimum requirements listed in the
+                    Installation topic.</li>
+                <li>Ensure no other instance of <ph keyref="product"/> is already running.</li>
+                <li>Try reinstalling the application.</li>
+            </ol>
+        </section>
+        <section id="section_performance">
+            <title>Slow Performance</title>
+            <p><b>Symptom:</b> The application responds slowly or freezes intermittently.</p>
+            <p><b>Solution:</b></p>
+            <ol id="ol_performance_fix">
+                <li>Close unnecessary applications to free up system resources.</li>
+                <li>Increase the allocated memory in <menucascade>
+                        <uicontrol>Edit</uicontrol>
+                        <uicontrol>Preferences</uicontrol>
+                        <uicontrol>Performance</uicontrol>
+                    </menucascade>.</li>
+                <li>Check for available updates that may include performance improvements.</li>
+            </ol>
+        </section>
+        <section id="section_contact_support">
+            <title>Contacting Support</title>
+            <p>If the above solutions do not resolve your issue, contact our support team at
+                    <xref href="mailto:support@example.com" format="html" scope="external"
+                    >support@example.com</xref> with the following information:</p>
+            <ul id="ul_support_info">
+                <li>Your <ph keyref="product"/> version number.</li>
+                <li>Operating system and version.</li>
+                <li>A detailed description of the issue and steps to reproduce it.</li>
+            </ul>
+        </section>
+    </body>
+</topic>

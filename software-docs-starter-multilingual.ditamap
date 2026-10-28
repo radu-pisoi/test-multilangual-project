@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map xml:lang="en-US">
+    <title>Software Docs Starter (EN-DE-FR)</title>
+
+    <!-- Keep each language in its own key scope to avoid key collisions. -->
+    <topichead navtitle="English">
+        <mapref href="en/userguide.ditamap" keyscope="en"/>
+    </topichead>
+
+    <topichead navtitle="German">
+        <mapref href="de-DE/userguide.ditamap" keyscope="de"/>
+    </topichead>
+
+    <topichead navtitle="French">
+        <mapref href="fr-FR/userguide.ditamap" keyscope="fr"/>
+    </topichead>
+</map>

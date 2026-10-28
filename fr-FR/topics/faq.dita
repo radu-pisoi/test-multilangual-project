@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="faq" xml:lang="fr-FR">
+    <title>Foire aux questions</title>
+    <shortdesc>Réponses aux questions les plus fréquemment posées sur
+        <ph keyref="product"/>.</shortdesc>
+    <body>
+        <section id="section_faq_general">
+            <title>Général</title>
+            <dl id="dl_general_faq">
+                <dlentry>
+                    <dt>Quels systèmes d'exploitation sont pris en charge ?</dt>
+                    <dd><ph keyref="product"/> prend en charge Windows 10 et versions ultérieures, macOS 12 et versions ultérieures,
+                        ainsi que les principales distributions Linux (Ubuntu, Fedora, Debian).</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Une version d'essai gratuite est-elle disponible ?</dt>
+                    <dd>Oui. Vous pouvez télécharger une version d'essai entièrement fonctionnelle depuis notre site web. La période
+                        d'essai dure 30 jours.</dd>
+                </dlentry>
+            </dl>
+        </section>
+        <section id="section_faq_licensing">
+            <title>Licences</title>
+            <dl id="dl_licensing_faq">
+                <dlentry>
+                    <dt>Comment activer ma licence ?</dt>
+                    <dd>Après votre achat, vous recevrez une clé de licence par e-mail. Saisissez-la dans
+                            <menucascade>
+                            <uicontrol>Aide</uicontrol>
+                            <uicontrol>Enregistrer</uicontrol>
+                        </menucascade> pour activer votre copie.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Puis-je transférer ma licence sur un autre ordinateur ?</dt>
+                    <dd>Oui. Désactivez d'abord la licence sur la machine actuelle, puis activez-la
+                        sur la nouvelle.</dd>
+                </dlentry>
+            </dl>
+        </section>
+    </body>
+</topic>

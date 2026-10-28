@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="faq">
+    <title>Frequently Asked Questions</title>
+    <shortdesc>Answers to the most commonly asked questions about
+        <ph keyref="product"/>.</shortdesc>
+    <body>
+        <section id="section_faq_general">
+            <title>General</title>
+            <dl id="dl_general_faq">
+                <dlentry>
+                    <dt>What operating systems are supported?</dt>
+                    <dd><ph keyref="product"/> supports Windows 10 and later, macOS 12 and later,
+                        and major Linux distributions (Ubuntu, Fedora, Debian).</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Is there a free trial available?</dt>
+                    <dd>Yes. You can download a fully functional trial from our website. The trial
+                        period lasts 30 days.</dd>
+                </dlentry>
+            </dl>
+        </section>
+        <section id="section_faq_licensing">
+            <title>Licensing</title>
+            <dl id="dl_licensing_faq">
+                <dlentry>
+                    <dt>How do I activate my license?</dt>
+                    <dd>After purchasing, you will receive a license key by email. Enter it in
+                            <menucascade>
+                            <uicontrol>Help</uicontrol>
+                            <uicontrol>Register</uicontrol>
+                        </menucascade> to activate your copy.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Can I transfer my license to another computer?</dt>
+                    <dd>Yes. Deactivate the license on the current machine first, then activate it
+                        on the new one.</dd>
+                </dlentry>
+            </dl>
+        </section>
+    </body>
+</topic>
