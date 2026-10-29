@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Descriptor for the Publishing Template. 
+    
+    Defines all the resources included in a template 
+    (such as HTML page templates, CSS, JS, fonts, and transformation parameters).
+-->
+<publishing-template>
+  
+  <!-- 
+    This information is displayed as the name of the template 
+    in the transformation scenario dialog box.  
+  -->
+  <name>Multilanguage Publishing</name>
+  
+  <!-- 
+    Optionally, you can include author information in the descriptor file. 
+    It is displayed when the user hovers over the template in the transformation 
+    scenario dialog box. 
+    
+    This information might be useful if users run into an issue or have 
+    questions about a certain template. 
+  -->
+  <author>
+    <name></name>
+    <email></email>
+  </author>
+  
+  
+  <webhelp>       
+    
+    <resources>
+      <css file="custom.css"/>
+    </resources>
+    
+    <html-fragments>
+      <fragment file="language_fragment.xml" placeholder="webhelp.fragment.after.top_menu"/>
+    </html-fragments>
+    
+    <xslt>
+      <extension file="expand_language_main.xslt" id="com.oxygenxml.webhelp.xsl.createMainPage"/>
+      <extension file="expand_language_topic.xslt" id="com.oxygenxml.webhelp.xsl.dita2webhelp"/>
+      <extension file="expand_language_search.xslt" id="com.oxygenxml.webhelp.xsl.createSearchPage"/>
+      <extension file="expand_language_indexterms.xslt" id="com.oxygenxml.webhelp.xsl.createIndexTermsPage"/>
+    </xslt>
+    
+    <!--
+      You can set one or more WebHelp transformation parameters in the descriptor file.
+    -->
+    <parameters>
+      <parameter name="webhelp.show.main.page.tiles" value="no"/>
+      <parameter name="webhelp.show.main.page.toc" value="yes"/>
+      <parameter name="webhelp.top.menu.depth" value="3"/>
+      
+      <parameter name="available.languages" value="languages.xml" type="filePath"/>
+    </parameters>
+  </webhelp>
+</publishing-template>
