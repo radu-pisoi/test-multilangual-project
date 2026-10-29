@@ -32,6 +32,7 @@
         <output href="webhelp-output"/>
         <publication idref="webhelp">
             <param href="../publishing/template.opt" name="webhelp.publishing.template"/>
+            <param name="current.language" value="German"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
         </publication>
     </deliverable>
