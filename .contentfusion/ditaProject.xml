@@ -18,30 +18,22 @@
     </context>
     <publication id="webhelp" transtype="webhelp-responsive"/>
     <publication id="pdf" transtype="pdf-css-html5"/>
-    
     <deliverable id="d-User_Manual_to_EN_WebHelp" name="User Manual to EN WebHelp Responsive">
         <context idref="user_manual_en"/>
-        <output href="../../out/en/"/>
+        <output href="webhelp-output"/>
         <publication idref="webhelp">
-            <!--<param href="cf://templates/Oxygen" name="webhelp.publishing.template"/>-->
-            <param name="webhelp.publishing.template" href="../publishing/template.opt"/>
-            <param name="current.language" value="English"/>
+            <param href="../publishing/template.opt" name="webhelp.publishing.template"/>
+            <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
         </publication>
-        
-        
-        
     </deliverable>
     <deliverable id="d-User_Manual_to_DE_WebHelp" name="User Manual to WebHelp Responsive - DE">
         <context idref="user_manual_de"/>
         <output href="../../out/de/"/>
         <publication idref="webhelp">
-            <!--<param href="cf://templates/Oxygen" name="webhelp.publishing.template"/>-->
-            
-            <param name="webhelp.publishing.template" href="../publishing/template.opt"/>
+            <param href="../publishing/template.opt" name="webhelp.publishing.template"/>
             <param name="current.language" value="German"/>
         </publication>
     </deliverable>
-    
     <deliverable id="d-User_Manual_to_Multilingual_WebHelp" name="User Manual to Multilingual WebHelp Responsive">
         <context idref="user_manual_multilingual"/>
         <output href="webhelp-output"/>
