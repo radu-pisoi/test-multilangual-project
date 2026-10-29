@@ -24,6 +24,7 @@
         <publication idref="webhelp">
             <param href="../publishing/template.opt" name="webhelp.publishing.template"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
+            <param name="current.language" value="English"/>
         </publication>
     </deliverable>
     <deliverable id="d-User_Manual_to_DE_WebHelp" name="User Manual to WebHelp Responsive - DE">
