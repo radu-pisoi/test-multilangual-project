@@ -29,10 +29,10 @@
     </deliverable>
     <deliverable id="d-User_Manual_to_DE_WebHelp" name="User Manual to WebHelp Responsive - DE">
         <context idref="user_manual_de"/>
-        <output href="../../out/de/"/>
+        <output href="webhelp-output"/>
         <publication idref="webhelp">
             <param href="../publishing/template.opt" name="webhelp.publishing.template"/>
-            <param name="current.language" value="German"/>
+            <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
         </publication>
     </deliverable>
     <deliverable id="d-User_Manual_to_Multilingual_WebHelp" name="User Manual to Multilingual WebHelp Responsive">
